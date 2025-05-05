@@ -3,7 +3,7 @@
 1. How It Works
   The pipeline follows these main steps:
 
-- **Load grayscale images** from the dataset
+- **Images are loaded from the KITTI image_02/ directory and converted from color to grayscale using OpenCV.** 
 - **Detect and compute ORB features**
 - **Match features between selected keyframes** using FLANN and Lowe’s ratio test
 - **Estimate camera motion** using the Essential matrix with RANSAC
