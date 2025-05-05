@@ -24,6 +24,7 @@ python src/main.py
 **KITTI 2011_09_26_drive_0084**
 
 5. **CODE structure**
+```text
 ├── Data/
 │ ├── calibration/ # Contains camera intrinsics or calibration file
 │ └── 2011_09_26_drive_0084/ # Dataset images
